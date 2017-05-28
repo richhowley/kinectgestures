@@ -75,4 +75,8 @@ This says that the left hand should be below the left shoulder.  When the XML is
 
 Gestures are registered to bodies individually.  This gives the program flexability on which gestures it responds to from which bodies. It could, in theory, define six gestures and register "player 1" to three of them and "player 2" to the other three for a multi-player game.
 
+![slipeleft](https://cloud.githubusercontent.com/assets/318132/26525759/94135b4c-432f-11e7-917a-f4ea7d7c3a80.jpeg)
+![swiperight](https://cloud.githubusercontent.com/assets/318132/26525764/a4ba2804-432f-11e7-9657-2a0a300d853c.jpeg)
+![raiselefthand](https://cloud.githubusercontent.com/assets/318132/26525767/b11249c4-432f-11e7-8814-25db62a7825d.jpeg)
+
 
