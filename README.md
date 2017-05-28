@@ -74,9 +74,14 @@ The rel tag specifies the relationship between joints, legal values are RIGHT_OF
 This says that the left hand should be below the left shoulder.  When the XML is processed (in XGesture.cpp) a pointer to a method of the GestureUtility class is stored along with the aruments for the method.  In the above example the method is compareBelow() and the argument vector will contain the Kinect constants for left hand and left shoulder, in that order.
 
 Gestures are registered to bodies individually.  This gives the program flexability on which gestures it responds to from which bodies. It could, in theory, define six gestures and register "player 1" to three of them and "player 2" to the other three for a multi-player game.
+
+Swipe Right - Text turns blue
 ![swiperight](https://cloud.githubusercontent.com/assets/318132/26525764/a4ba2804-432f-11e7-9657-2a0a300d853c.jpeg)
+
+Swipe Left - Text turns yellow
 ![slipeleft](https://cloud.githubusercontent.com/assets/318132/26525759/94135b4c-432f-11e7-917a-f4ea7d7c3a80.jpeg)
 
+Raise Left Hand - Text turns purple
 ![raiselefthand](https://cloud.githubusercontent.com/assets/318132/26525767/b11249c4-432f-11e7-8814-25db62a7825d.jpeg)
 
 
